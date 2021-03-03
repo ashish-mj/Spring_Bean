@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-	<bean id="g1" class="com.rakuten.spring.bean.GreetingBean">
+	<bean id="g1" class="com.rakuten.spring.bean.GreetingBean" lazy-init="false">
 		<property name="msg" value="Hv a nice Day!!!">
 		</property>
 	</bean>

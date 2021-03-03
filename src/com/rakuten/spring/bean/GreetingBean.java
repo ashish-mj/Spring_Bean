@@ -15,6 +15,6 @@ public GreetingBean() {
 	System.out.println("Greeting bean instantiated ..");
 }
 public String sayHello(String name) {
-	return "Hi "+name+"\t"+msg;
+	return "Hi "+name+"\t";
 }
 }
